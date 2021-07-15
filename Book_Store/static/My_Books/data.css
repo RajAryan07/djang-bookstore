@@ -1,0 +1,82 @@
+body {
+  background-color: #210301;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+
+}
+
+.data {
+  background-color: #9c9c9c;
+  padding: 30px;
+  width: 50%;
+  margin: auto;
+  margin-top: 4%;
+  box-shadow: 5px 10px 8px black;
+  font-family:cursive;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+button {
+  background-color: #002e78;
+  color: white;
+  margin-left: 70%;
+}
+
+table {
+  margin: auto;
+  margin-top: 40px;
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+
+th {
+  width: 30%;
+  text-align: center;
+  border: 3px solid black;
+}
+
+tr {
+  border: 3px solid black;
+}
+td {
+  border: 3px solid black;
+}
+
+#name {
+  background-color: #facfcf;
+}
+#bname {
+  background-color: #facfcf;
+  opacity: 0.8;
+  padding-left: 6px;
+}
+#genre {
+  background-color: #facfcf;
+}
+#gname {
+  background-color: #facfcf;
+  opacity: 0.8;
+  padding-left: 6px;
+}
+#author {
+  background-color: #d7ecfa;
+}
+#aname {
+  background-color: #d7ecfa;
+  opacity: 0.8;
+  padding-left: 6px;
+}
+#language {
+  background-color: #d7ecfa;
+}
+#lname {
+  background-color: #d7ecfa;
+  opacity: 0.8;
+  padding-left: 6px;
+}

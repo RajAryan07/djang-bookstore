@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% extends "My_Books/base.html" %}
+   {% block body_block %}
+   {% load static %}
+   <link rel="stylesheet" type="text/css" href="{% static 'My_Books/form.css' %}">
+   <body>
+     <h1>BOOK REGISTRATION ---</h1>
+     <div class="form">
+       <h3>Please fill the required fields:-</h3>
+       <form method="post">
+         {{form.as_p}}
+         {% csrf_token %}
+         <input type="submit" class="btn btn-primary" value="SUBMIT">
+       </form>
+     </div>
+   </body>
+   {% endblock %}

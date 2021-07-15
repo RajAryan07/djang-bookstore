@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% extends "My_Books/base.html" %}
+   {% block body_block %}
+   {% load static %}
+   <link rel="stylesheet" type="text/css" href="{% static 'My_Books/data.css' %}">
+   <body>
+     <h1>Search by filters :-</h1>
+     <div class="data">
+       <form method="GET">
+         {{ filter.form.as_p }}
+         <button type="submit" name="Search">SEARCH</button>
+       </form>
+      </div>
+      <h1>Books Available ---</h1>
+      <table>
+        <tr>
+          <th id="name">Book Name</th>
+          <th id="author">Author</th>
+          <th id="genre">Genre</th>
+          <th id="language">Language</th>
+        </tr>
+        {% for user in filter.qs %}
+            <tr>
+              <td id="bname">{{ user.book_name }}</td>
+              <td id="aname">{{ user.author_name }}</td>
+              <td id="gname">{{ user.genre }}</td>
+              <td id="lname">{{ user.language }}</td>
+            </tr>
+         {% endfor %}
+      </table>
+   </body>
+
+    {% endblock %}

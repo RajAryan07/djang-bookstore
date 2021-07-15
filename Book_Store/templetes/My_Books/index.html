@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends "My_Books/base.html" %}
+   {% block body_block %}
+   {% load static %}
+
+   <link rel="stylesheet" type="text/css" href="{% static 'My_Books/index.css' %}">
+     <body>
+       <h1>WELCOME TO THE BOOK STORE</h1>
+       <div class="notes">
+         <ul>
+           <li>For book registration click ADD BOOK.</li>
+           <li>To search books using filters click BOOKS AVAILABLE.</li>
+         </ul>
+       </div>
+     </body>
+   {% endblock %}

@@ -1,0 +1,32 @@
+body {
+  background-color: #002945;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+
+}
+
+table {
+  margin: auto;
+  margin-top: 40px;
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+
+th {
+  background-color: #cccccc;
+  text-align: center;
+  width: 25%;
+  border: 3px solid black;
+  padding-right: 20px;
+}
+
+td {
+  border: 3px solid black;
+  padding-left: 6px;
+  background-color: white
+}
